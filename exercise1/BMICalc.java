@@ -1,10 +1,6 @@
 
 public class BMICalc {
 
-    public static void main(String[] args) {
-
-    }
-
     public double calculateBMI(double height, double weight) {
         if (height == 0 || weight == 0) {
             return -1;
