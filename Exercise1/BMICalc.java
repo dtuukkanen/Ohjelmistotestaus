@@ -1,4 +1,3 @@
-
 public class BMICalc {
 
     public double calculateBMI(double height, double weight) {
