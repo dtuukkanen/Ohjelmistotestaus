@@ -40,7 +40,7 @@ public class AppTest {
     }
 
     @Test
-    @DisplayName("Check that cart item throws exception if stock is maller than quantity")
+    @DisplayName("Check that cart item throws exception if stock is smaller than quantity")
     public void CartItem() {
         Item item = new Item("Test", 1.0, 1);
         assertThrows(IllegalArgumentException.class, () -> {
