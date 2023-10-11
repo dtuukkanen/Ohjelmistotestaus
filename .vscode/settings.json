@@ -1,3 +1,7 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.project.sourcePaths": [
+    "Exercise1",
+    "Exercise6/calculator/src/main/java/com/example"
+  ]
 }
